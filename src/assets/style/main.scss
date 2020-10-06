@@ -1,0 +1,11 @@
+// BASICS
+@import './basics/variables';
+@import './basics/helpers';
+@import './basics/base';
+// VIEWS
+@import './views/task-list';
+@import './views/home';
+// CMPS
+@import './cmps/task.scss';
+@import './cmps/footer.scss';
+@import './cmps/header.scss';

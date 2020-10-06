@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    outline: none;
+}
+
+body{
+    background-color: #ececec;
+}
+
+textarea{
+    resize: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.app{
+height:85vh;
+padding: 10px;
+}
