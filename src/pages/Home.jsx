@@ -1,10 +1,20 @@
 import React from 'react'
 
-export function Home(props){
+import { Header } from '../cmps/Header';
+import { Hero } from '../cmps/Hero';
+import { Reviews } from '../cmps/Reviews';
+import { CallToAction } from '../cmps/CallToAction';
+import { Footer } from '../cmps/Footer';
 
-    return(
+export function Home(props) {
+
+    return (
         <div className="main">
-            <h1>I am th MC</h1>
+            <Header />
+            <Hero />
+            <Reviews />
+            <CallToAction />
+            <Footer />
         </div>
     )
 }

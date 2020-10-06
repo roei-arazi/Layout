@@ -4,12 +4,30 @@
     outline: none;
 }
 
-body{
-    background-color: #ececec;
+html{
+    font-family: Livvic-Medium;
 }
 
-textarea{
-    resize: none;
+h3,
+button{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+body{
+    background-color: #ececec;
+    min-height: 100vh;
+}
+
+button{
+    background-color: inherit;
+    border: 2px solid #ffffff;
+    border-radius: 24px;
+    width:150px;
+    height:50px;
+    font-size: 18px;
+    color: #ffffff;
 }
 
 a{
@@ -17,7 +35,11 @@ a{
     color: inherit;
 }
 
-.app{
-height:85vh;
-padding: 10px;
+.container{
+    width:1440px;
+}
+.inner-container{
+    margin-left:165px;
+    margin-right:165px;
+    height:100%;
 }

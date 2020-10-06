@@ -1,0 +1,19 @@
+.hero{
+    width:100%;
+    background-color: #002529;
+    height:680px;
+    color: #ffffff;
+    padding-top:200px;
+
+    h1{
+        font-size: 3rem;
+    }
+    .hero-info{
+        margin-left:150px;
+        .info-box{
+            h3{
+                color: #f67e7e;
+            }
+        }
+    }
+}

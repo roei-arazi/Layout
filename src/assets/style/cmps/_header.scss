@@ -1,8 +1,38 @@
 .header{
     width:100%;
-    height:10vh;
-    background-color: #2b64b4;
-    color: #f1f1f1;
-    padding-left: 10px;
-    padding-right:10px;
+    background-color: #014e56;
+    color: #ffffff;
+    height:700px;
+
+    .inner-container{
+        padding-top: 80px;
+
+        .header-left{
+            h2{
+                font-size: 40px;
+                margin-right:35px;
+            }
+            h3{
+                margin-left: 45px;
+            }
+        }
+    }
+
+    main{
+        margin-top:130px;
+        h1{
+            width:635px;
+            font-size: 100px;
+            margin-right:30px;
+            padding-right:100px;
+            span{
+                color: #f67e7e;
+            }
+        }
+        h3{
+            width:445px;
+            padding-bottom: 15px;
+        }
+
+    }
 }

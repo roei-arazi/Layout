@@ -1,0 +1,20 @@
+.call-to-action {
+    width: 100%;
+    background-color: #f67e7e;
+    height: 200px;
+    color: #002529;
+
+    .inner-container {
+        margin-left: 260px;
+        margin-right: 260px;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    button {
+        color: #002529;
+        border-color: #002529;
+    }
+}
